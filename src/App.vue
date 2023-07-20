@@ -19,10 +19,11 @@ export default {
 
 <style scoped>
 .container {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 100%;
   display: flex;
-  padding: 20px;
+  padding: 50px;
   justify-content: space-around;
+  margin: 0 auto;
 }
 </style>

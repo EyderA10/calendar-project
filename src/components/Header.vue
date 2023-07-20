@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>Header</h1>
+        <h3>Schedules</h3>
         <input type="search" name="search" id="">
         <p>icon</p>
         <p>image</p>
@@ -14,8 +14,14 @@ export default {
 </script>
 
 <style scoped>
-    .header, h1, input, p, img {
+    .header {
+        margin-left: 40px;
+    }
+    .header, h3, input, p, img {
         display: inline-block;
-        margin-left: 10px;
+    }
+
+    .header input, p, img {
+        margin-left: 50px;
     }
 </style>
