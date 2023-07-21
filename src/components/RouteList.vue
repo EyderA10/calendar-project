@@ -47,6 +47,7 @@ export default {
 .routes .routes__list {
     height: 10%;
     overflow: auto;
+    list-style: none;
 }
 
 .routes .routes__list li {
@@ -55,4 +56,5 @@ export default {
 
 .routes .routes__list li:hover {
     background-color: lightgrey;
-}</style>
+}
+</style>

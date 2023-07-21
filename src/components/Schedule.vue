@@ -26,27 +26,9 @@ export default {
             attributes: [],
         }
     },
-    beforeUpdate() {
+    updated() {
         this.attributes = []
     },
-    // beforeMount() {
-    //     this.attributes.push(
-    //         {
-    //             // highlight: {
-    //             //     color: 'red',
-    //             //     fillMode: 'solid'
-    //             // },
-    //             dates: {
-    //                 start: new Date(2021, 7, 2),
-    //                 // repeat: {
-    //                 //     weekdays: [2, 3, 5],
-    //                 //     years: [2021, 2022, 2028]
-    //                 // },
-    //             }
-    //         },
-    //     )
-    //     console.log(this.attributes)
-    // },
     methods: {
         getDates({ dateFrom, dateTo }) {
             if (dateFrom === dateTo) {

@@ -31,12 +31,16 @@ export default {
     }
     .sidebar .sidebar__nav {
         margin: 30% 0;
+        list-style: none;
     }
     .sidebar .sidebar__nav li {
         margin: 15% 0;
     }
     .sidebar .sidebar__footer {
         margin: 80% 0;
+    }
+    .sidebar .sidebar__footer ul {
+        list-style: none;
     }
     .sidebar .sidebar__footer li {
         margin: 10% 0;
